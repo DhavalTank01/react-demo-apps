@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+}
+body {
+  background-color: cornsilk;
+}
+#main-body {
+  margin-bottom: 43px;
+}
+
+.main_box {
+}
+.input_control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+.MuiInputBase-input {
+  color: blue !important;
+  font-size: 20px !important;
+  text-align: center !important;
+}
+.Input_field {
+}
+.search_card {
+  margin: 0% 30%;
+}
+.card_action {
+  height: 70vh;
+}
+.fa-circle-1 {
+  font-size: 8px;
+  transform: translateY(-15px);
+}
+.fa-circle-2 {
+  font-size: 8px;
+  transform: translateY(-10px);
+}
+.condition_icon {
+  animation: animation1 2s ease-in-out infinite alternate-reverse both;
+  font-size: 3rem;
+  width: 75px;
+  /* transform: translateX(-5px); */
+}
+@keyframes animation1 {
+  from {
+    transform: translateX(-25px);
+  }
+  to {
+    transform: translateX(-3px);
+  }
+}
+.Search_result {
+}
+/* footer */
+
+.footer_box {
+  background-color: lightgray;
+  padding: 10px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}

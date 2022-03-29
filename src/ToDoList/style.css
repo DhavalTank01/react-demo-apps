@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+body {
+  background-color: honeydew;
+}
+.footer-box {
+  background-color: #f8f9fa;
+  padding: 10px 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* home */
+#home-section {
+  height: 76vh;
+}
+.main-box {
+  border: 1px solid #e8e2c8;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  margin: 5% 35% 0% 35%;
+  box-shadow: 0px 0px 3px 1px #e8e2c8;
+}
+
+.image-box > img {
+  width: 100px;
+  height: 100px;
+}
+.MuiIconButton-root {
+  background-color: #e8e2c8 !important;
+}
+.control-Input {
+  outline: none;
+  border: none;
+  width: 260px;
+  font-size: 18px;
+  margin: 5px 0px;
+}
+.input-box {
+  box-shadow: 0px 0px 3px 1px lightgrey;
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.Input_Filed {
+  margin: 0px 0px 0px 5px;
+}
+
+.add-btn {
+  outline: none !important;
+  border: none !important;
+}
+.list-group-item {
+  padding: 10px;
+  margin: 5px 0px;
+  font-size: 18px;
+}
+.list-group-item:hover {
+  background-color: #e8e2c8;
+}
+.delete-icon {
+  float: right;
+}
+.delete-icon:hover {
+  color: red;
+  cursor: pointer;
+}
+.edit-icon {
+  float: right;
+}
+.edit-icon:hover {
+  color: green;
+  cursor: pointer;
+}
+.clear-btn {
+  margin-top: 10px !important;
+  color: black !important;
+  border-color: #e8e2c8 !important;
+}
+.showItem {
+  margin-top: 5px;
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  #home-section {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  body {
+    background: azure;
+  }
+  .main-box {
+    margin: 20px 0px 0px 0px;
+  }
+  .control-Input {
+    width: 190px;
+  }
+  .input-group {
+    display: block !important;
+  }
+  .add-btn-box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .MuiIconButton-root {
+    display: flex !important;
+    align-items: center !important;
+    justify-self: center !important;
+    flex-direction: column !important;
+  }
+}

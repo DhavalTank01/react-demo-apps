@@ -1,0 +1,22 @@
+.title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25px;
+  background: aliceblue;
+  padding: 30px 0px;
+  margin: 25px 100px 0px 100px;
+}
+.title>p>span
+{
+    font-weight: bold;
+}
+.sloat_machine
+{
+    background: white;
+    margin: 0px 100px;
+    text-align: center;
+}
+.details
+{
+    border-bottom: 1px solid gray;
+}

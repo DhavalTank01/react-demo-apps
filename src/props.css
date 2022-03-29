@@ -1,0 +1,76 @@
+.app_title {
+  font-size: 30px;
+  background: azure;
+  text-align: center;
+  margin: 10px auto 20px auto;
+  text-transform: capitalize;
+}
+.app_title > p {
+  border-bottom: 3px solid;
+  display: block;
+  margin: auto;
+  width: auto;
+  padding: 5px 0px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.card {
+  display: block;
+  width: auto;
+  margin: auto;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.cardimage {
+  display: block;
+  width: auto;
+  height: 275px;
+  max-width: 280px;
+  margin: auto;
+}
+.cardimage > a > img {
+  border-radius: 15px 15px 0px 0px;
+}
+.cardinfo {
+  background: white;
+  border-radius: 0px 0px 15px 15px;
+  padding: 0px 0px 10px 0px;
+}
+.title {
+  text-decoration: none;
+  color: black;
+}
+.title:hover {
+  color: blue;
+}
+.title > h3 {
+  padding: 0px 5px;
+}
+.category {
+  color: gray;
+  font-size: 15px;
+  padding: 0px 5px;
+}
+.cardlink {
+  text-decoration: none;
+  display: block;
+  width: auto;
+  margin: auto;
+  text-align: center;
+  background: azure;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.cardlink:hover {
+  color: blue;
+}
